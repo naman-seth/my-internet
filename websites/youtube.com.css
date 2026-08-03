@@ -24,6 +24,7 @@ ytd-item-section-renderer[page-subtype="playlist"] #header.ytd-item-section-rend
 body::-webkit-scrollbar,
 ytd-guide-signin-promo-renderer {
   display: none;
+  scrollbar-width: none;
 }
 
 #tabs-divider,
@@ -437,10 +438,6 @@ ytd-rich-item-renderer[rendered-from-rich-grid] {
 
 ytd-rich-item-renderer[is-in-first-column=""] {
   margin-left: calc(var(--ytd-rich-grid-item-margin) / 2) !important;
-}
-
-#contents {
-  padding-left: calc(var(--ytd-rich-grid-item-margin) / 2 + var(--ytd-rich-grid-gutter-margin)) !important;
 }
 
 /* yt-Immersive search $ Smooth blur and zoom effect for searhbar */

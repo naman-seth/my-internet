@@ -1,21 +1,23 @@
-/* miruro-transparency */
+/* aero-transparency */
 html,
 body,
-.eGxCRW,
-.iDHeGb,
-.daqunT,
-.hIxxKF,
-.ijmopf,
-.cqJwte,
-.eakZjw,
-.gfuLhl,
-.kdqxUl,
-.fwmihZ,
-.iiVqpN,
-.ghhYJl {
+nav,
+header,
+footer,
+section,
+main,
+article,
+.container,
+.wrapper,
+.content,
+.sidebar,
+.menu,
+.navbar,
+.page,
+.post,
+.markdown-body {
   background-color: transparent !important;
   background: none !important;
-  --global-primary-bg: none !important;
   border: none !important;
   box-shadow: none !important;
   transition:
@@ -25,12 +27,14 @@ body,
     box-shadow 0.5s ease-in-out !important;
 }
 
-/* miruro-16/9 player */
-.player {
-  aspect-ratio: 16/9 !important;
+/* aero-darkreader */
+:root {
+  --darkreader-background-ffffff: transparent !important;
 }
 
-/* miruro-no footer */
-footer {
+/* aero-no footer */
+footer,
+.footer,
+.site-footer {
   display: none !important;
 }
